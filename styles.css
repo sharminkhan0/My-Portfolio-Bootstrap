@@ -48,3 +48,49 @@ body {
 .attachment {
   color: #7f8cff;
 }
+
+.bullet-icon {
+  font-size: 7px;
+  padding: 10px;
+}
+
+.about_section {
+  border-top-right-radius: 70px;
+}
+
+.lan-img {
+  width: 40px;
+}
+
+.contact_section {
+  border-top-left-radius: 70px;
+  background-color: #6070ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom -30px right -16px;
+  background-image: url("./resources/images/contact\ form\ shapes-mobile.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .headline_section {
+    min-height: 916px !important;
+    background-size: contain;
+  }
+
+  .lan-group li {
+    min-width: 100px;
+  }
+
+  .contact_section {
+    background-image: url("./images/contact-form-bg-pc.png");
+    background-position: initial;
+    background-size: initial;
+  }
+
+  .contact_container {
+    width: 500px !important;
+  }
+}
+
+
+
