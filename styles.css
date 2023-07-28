@@ -36,11 +36,12 @@ body {
   background-size: contain;
   background-repeat: space;
   background-repeat: no-repeat;
+  min-height: 650px;
   background-image: url("./resources/images/header-shapes-mobile.png");
 }
 
 .title {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 50px;
   padding-top: 50px;
 }
@@ -73,7 +74,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .headline_section {
-    min-height: 916px !important;
+    min-height: 918px !important;
     background-size: contain;
   }
 
