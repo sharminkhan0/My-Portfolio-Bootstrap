@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  position: relative !important;
+}
+
+.fz-28 {
+  font-size: 28px;
+}
+
+.dark-blue {
+  color: #344563 !important;
+}
+
+.nav-link:hover {
+  color: #0b1e3f !important;
+}
+
+.nav-item .active {
+  background: #344563 !important;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px !important;
+}
+
+.headline_wrapper {
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: space;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  background-image: url("./resources/images/header-shapes-mobile.png");
+}
+
+.title {
+  font-size: 45px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.attachment {
+  color: #7f8cff;
+}
+
+.bullet-icon {
+  font-size: 7px;
+  padding: 10px;
+}
+
+.about_section {
+  border-top-right-radius: 70px;
+}
+
+.lan-img {
+  width: 40px;
+}
+
+.contact_section {
+  border-top-left-radius: 70px;
+  background-color: #6070ff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom -30px right -16px;
+  background-image: url("./resources/images/contact\ form\ shapes-mobile.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .headline_section {
+    min-height: 918px !important;
+    background-size: contain;
+  }
+
+  .lan-group li {
+    min-width: 100px;
+  }
+
+  .contact_section {
+    background-image: url("./images/contact-form-bg-pc.png");
+    background-position: initial;
+    background-size: initial;
+  }
+
+  .contact_container {
+    width: 500px !important;
+  }
+}
